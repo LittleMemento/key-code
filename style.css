@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Laila:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Laila", serif;
+}
+
+.keyboard_screen {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/keyboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key_board {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.key {
+  border: 2px solid #000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+small {
+  font-size: 15px;
+  padding-top: 5px;
+  border-top: 2px solid #000;
+}
